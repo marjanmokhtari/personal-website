@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+overflow-x: hidden;
+}
+@font-face {
+    font-family: google;
+    src: url(../font/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: txtproject;
+    src: url(../font/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: myitalic;
+    src: url(../font/Jost-SemiBoldItalic.ttf);
+}
+
+.stoketxt{
+     color: #000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+
+@keyframes identifier {
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-300px);
+  }
+ 
+}
